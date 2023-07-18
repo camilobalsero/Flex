@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    display: flex;
+    color: #fff;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: salmon;
+    justify-content: space-evenly;
+}
+
+section header{
+    font-size: 220%;
+}
+
+nav{
+    
+    display: flex;
+    background-color: rgb(0, 240, 156);
+    height: 6vh;
+    width: 99.2vw;
+    align-content: start;
+    padding-left: 43.5px;
+    padding: 10px;
+    padding-bottom: 45px;
+    color: #fff;
+}
+
+nav ul{
+    padding: 1%;
+}
+
+.nave{
+    display: flex;
+}
+.end{
+    margin-left: auto;
+}
+
+div{
+    display: flex;
+}
+aside{
+    display: flex;
+    background-color: rgb(240, 235, 235);
+    justify-content: flex-start;
+    width: 30vw;
+    height: 1390px;
+    flex-direction: column;
+    padding-left: 32px;
+    padding-top: 50px;
+    
+}
+article{
+    display: flex;
+    width: 70vw;
+    height: 100vh;
+    flex-direction: column;
+}
+.cuadro3{
+    justify-content: center;
+    align-items: center ;
+    color: gray;
+    font-size: 40px;
+    display: flex;
+    height: 375px;
+    width: 375px;
+    background-color: rgb(176, 173, 173);
+    padding-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 21.5px;
+}
+.cuadro1{
+    justify-content: center;
+    align-items: center ;
+    color: gray;
+    font-size: 40px;
+    display: flex;
+    height: 187px;
+    width: 375px;
+    background-color: rgb(176, 173, 173);
+    padding-right: 30px;
+    margin-top: 30px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: rgb(176, 173, 173);
+    font-size: 20px;
+
+}
+
+article{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.cuadro2{
+    justify-content: center;
+    align-items: center ;
+    color: gray;
+    font-size: 40px;
+    display: flex;
+    height: 187px;
+    width: 955px;
+    background-color: rgb(176, 173, 173);
+    padding-right: 30px;
+    margin-top: 30px;
+}
+.borde{
+    border-bottom: solid 1px #000;
+}
